@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "id": "report-1",
+            "userId": "user-1",
+            "websiteId": "website-1",
+            "type": "goal",
+            "name": "Visited /pricing",
+            "description": "Test",
+            "parameters": {
+                "type": "path",
+                "value": "/pricing"
+            },
+            "createdAt": "2024-07-23T17:28:55.192Z",
+            "updatedAt": "2024-10-07T07:46:57.918Z"
+        }
+    ],
+    "count": 1,
+    "page": 1,
+    "pageSize": 20
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "websiteId": "website-1",
+        "sessionId": "session-1",
+        "dataKey": "email",
+        "dataType": 1,
+        "stringValue": "bob@aol.com",
+        "numberValue": null,
+        "dateValue": null,
+        "createdAt": "2024-01-22T02:28:17Z"
+    }
+]

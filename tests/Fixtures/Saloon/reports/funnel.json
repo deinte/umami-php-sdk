@@ -1,0 +1,20 @@
+[
+    {
+        "type": "path",
+        "value": "/",
+        "visitors": 106594,
+        "previous": 0,
+        "dropped": 0,
+        "dropoff": null,
+        "remaining": 1
+    },
+    {
+        "type": "event",
+        "value": "live-demo-button",
+        "visitors": 10269,
+        "previous": 106594,
+        "dropped": 96325,
+        "dropoff": 0.9,
+        "remaining": 0.1
+    }
+]

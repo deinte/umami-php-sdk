@@ -1,0 +1,9 @@
+{
+    "id": "team-2",
+    "name": "Marketing Ops",
+    "accessCode": "team_xyz",
+    "logoUrl": null,
+    "createdAt": "2024-01-03T00:00:00.000Z",
+    "updatedAt": "2024-01-04T00:00:00.000Z",
+    "deletedAt": null
+}

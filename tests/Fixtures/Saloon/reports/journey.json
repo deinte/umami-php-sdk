@@ -1,0 +1,9 @@
+[
+    {
+        "visitorId": "123",
+        "steps": [
+            { "type": "path", "value": "/", "timestamp": "2024-10-01T00:00:00.000Z" },
+            { "type": "event", "value": "live-demo-button", "timestamp": "2024-10-01T00:01:00.000Z" }
+        ]
+    }
+]

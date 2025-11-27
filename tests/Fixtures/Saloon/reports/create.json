@@ -1,0 +1,14 @@
+{
+    "id": "report-2",
+    "userId": "user-1",
+    "websiteId": "website-1",
+    "type": "goal",
+    "name": "Triggered Login-button",
+    "description": "",
+    "parameters": {
+        "type": "event",
+        "value": "login-button-header"
+    },
+    "createdAt": "2024-10-14T00:12:33.203Z",
+    "updatedAt": "2024-10-14T00:12:33.203Z"
+}
