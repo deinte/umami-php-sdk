@@ -13,7 +13,7 @@ trait SupportsMeEndpoints
 {
     public function me(): SessionContext
     {
-        return $this->send(new GetMeRequest())->dto();
+        return $this->send(new GetMeRequest)->dto();
     }
 
     public function myTeams(array $query = []): PaginatedResult

@@ -11,7 +11,7 @@ use Deinte\UmamiSdk\Requests\Auth\VerifyTokenRequest;
 trait SupportsAuthenticationEndpoints
 {
     /**
-     * @param array<string, mixed> $credentials
+     * @param  array<string, mixed>  $credentials
      */
     public function login(array $credentials): LoginResult
     {
@@ -20,6 +20,6 @@ trait SupportsAuthenticationEndpoints
 
     public function verifyToken(): VerifiedUser
     {
-        return $this->send(new VerifyTokenRequest())->dto();
+        return $this->send(new VerifyTokenRequest)->dto();
     }
 }

@@ -5,9 +5,9 @@ use Deinte\UmamiSdk\Requests\Sessions\GetSessionDataPropertiesRequest;
 use Deinte\UmamiSdk\Requests\Sessions\GetSessionDataValuesRequest;
 use Deinte\UmamiSdk\Requests\Sessions\GetSessionPropertiesRequest;
 use Deinte\UmamiSdk\Requests\Sessions\GetSessionRequest;
+use Deinte\UmamiSdk\Requests\Sessions\GetSessionsRequest;
 use Deinte\UmamiSdk\Requests\Sessions\GetSessionStatsRequest;
 use Deinte\UmamiSdk\Requests\Sessions\GetSessionWeeklyRequest;
-use Deinte\UmamiSdk\Requests\Sessions\GetSessionsRequest;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
 

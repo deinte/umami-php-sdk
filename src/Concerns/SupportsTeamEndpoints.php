@@ -5,16 +5,15 @@ namespace Deinte\UmamiSdk\Concerns;
 use Deinte\UmamiSdk\Dto\PaginatedResult;
 use Deinte\UmamiSdk\Dto\Team;
 use Deinte\UmamiSdk\Dto\TeamMember;
-use Deinte\UmamiSdk\Dto\Website;
 use Deinte\UmamiSdk\Requests\Teams\AddTeamUserRequest;
 use Deinte\UmamiSdk\Requests\Teams\CreateTeamRequest;
 use Deinte\UmamiSdk\Requests\Teams\DeleteTeamRequest;
 use Deinte\UmamiSdk\Requests\Teams\DeleteTeamUserRequest;
 use Deinte\UmamiSdk\Requests\Teams\GetTeamRequest;
+use Deinte\UmamiSdk\Requests\Teams\GetTeamsRequest;
 use Deinte\UmamiSdk\Requests\Teams\GetTeamUserRequest;
 use Deinte\UmamiSdk\Requests\Teams\GetTeamUsersRequest;
 use Deinte\UmamiSdk\Requests\Teams\GetTeamWebsitesRequest;
-use Deinte\UmamiSdk\Requests\Teams\GetTeamsRequest;
 use Deinte\UmamiSdk\Requests\Teams\JoinTeamRequest;
 use Deinte\UmamiSdk\Requests\Teams\UpdateTeamRequest;
 use Deinte\UmamiSdk\Requests\Teams\UpdateTeamUserRequest;
@@ -28,7 +27,7 @@ trait SupportsTeamEndpoints
     }
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function createTeam(array $payload): Team
     {
@@ -36,7 +35,7 @@ trait SupportsTeamEndpoints
     }
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function joinTeam(array $payload): TeamMember
     {
@@ -49,7 +48,7 @@ trait SupportsTeamEndpoints
     }
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function updateTeam(string $teamId, array $payload): Team
     {
@@ -67,7 +66,7 @@ trait SupportsTeamEndpoints
     }
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function addTeamUser(string $teamId, array $payload): TeamMember
     {
@@ -80,7 +79,7 @@ trait SupportsTeamEndpoints
     }
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function updateTeamUser(string $teamId, string $userId, array $payload): TeamMember
     {

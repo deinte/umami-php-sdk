@@ -4,12 +4,13 @@ namespace Deinte\UmamiSdk\Dto;
 
 /**
  * @template T
+ *
  * @implements \IteratorAggregate<int, T>
  */
 class PaginatedResult implements \IteratorAggregate
 {
     /**
-     * @param array<int, T> $items
+     * @param  array<int, T>  $items
      */
     public function __construct(
         public array $items,
@@ -21,8 +22,9 @@ class PaginatedResult implements \IteratorAggregate
 
     /**
      * @template U
-     * @param array<string, mixed> $payload
-     * @param callable(array<string, mixed>): U $mapper
+     *
+     * @param  array<string, mixed>  $payload
+     * @param  callable(array<string, mixed>): U  $mapper
      * @return self<U>
      */
     public static function fromResponse(array $payload, callable $mapper): self

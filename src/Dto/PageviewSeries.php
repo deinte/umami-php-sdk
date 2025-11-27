@@ -5,8 +5,8 @@ namespace Deinte\UmamiSdk\Dto;
 class PageviewSeries
 {
     /**
-     * @param array<int, TimeSeriesPoint> $pageviews
-     * @param array<int, TimeSeriesPoint> $sessions
+     * @param  array<int, TimeSeriesPoint>  $pageviews
+     * @param  array<int, TimeSeriesPoint>  $sessions
      */
     public function __construct(
         public array $pageviews,
@@ -14,7 +14,7 @@ class PageviewSeries
     ) {}
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public static function fromResponse(array $payload): self
     {

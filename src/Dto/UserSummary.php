@@ -13,7 +13,7 @@ class UserSummary
     ) {}
 
     /**
-     * @param array<string, mixed> $data
+     * @param  array<string, mixed>  $data
      */
     public static function fromResponse(array $data): self
     {

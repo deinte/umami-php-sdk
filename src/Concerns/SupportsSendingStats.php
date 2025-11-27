@@ -9,7 +9,7 @@ use Deinte\UmamiSdk\Requests\SendingStats\SendStatsRequest;
 trait SupportsSendingStats
 {
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function sendStats(array $payload): SendResult
     {

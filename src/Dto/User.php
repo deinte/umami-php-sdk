@@ -17,7 +17,7 @@ class User
     ) {}
 
     /**
-     * @param array<string, mixed> $data
+     * @param  array<string, mixed>  $data
      */
     public static function fromResponse(array $data): self
     {
@@ -35,7 +35,7 @@ class User
     }
 
     /**
-     * @param array<int, array<string, mixed>> $items
+     * @param  array<int, array<string, mixed>>  $items
      * @return array<int, self>
      */
     public static function collect(array $items): array

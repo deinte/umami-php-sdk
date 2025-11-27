@@ -10,7 +10,7 @@ class MetricPoint
     ) {}
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public static function fromResponse(array $payload): self
     {

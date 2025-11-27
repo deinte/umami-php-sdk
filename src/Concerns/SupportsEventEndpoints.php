@@ -2,8 +2,8 @@
 
 namespace Deinte\UmamiSdk\Concerns;
 
-use Deinte\UmamiSdk\Dto\PaginatedResult;
 use Deinte\UmamiSdk\Dto\EventRecord;
+use Deinte\UmamiSdk\Dto\PaginatedResult;
 use Deinte\UmamiSdk\Requests\Events\GetEventDataEventsRequest;
 use Deinte\UmamiSdk\Requests\Events\GetEventDataFieldsRequest;
 use Deinte\UmamiSdk\Requests\Events\GetEventDataPropertiesRequest;

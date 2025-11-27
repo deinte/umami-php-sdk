@@ -20,7 +20,7 @@ trait SupportsReportEndpoints
     }
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function createReport(array $payload): Report
     {
@@ -33,7 +33,7 @@ trait SupportsReportEndpoints
     }
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function updateReport(string $reportId, array $payload): Report
     {
@@ -46,7 +46,7 @@ trait SupportsReportEndpoints
     }
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function runAttributionReport(array $payload): array
     {

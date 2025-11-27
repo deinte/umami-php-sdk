@@ -17,7 +17,7 @@ use Deinte\UmamiSdk\Requests\Users\UpdateUserRequest;
 trait SupportsUserEndpoints
 {
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function createUser(array $payload): User
     {
@@ -30,7 +30,7 @@ trait SupportsUserEndpoints
     }
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function updateUser(string $userId, array $payload): User
     {

@@ -13,7 +13,7 @@ class GetLinksRequest extends Request
     protected Method $method = Method::GET;
 
     /**
-     * @param array<string, mixed> $query
+     * @param  array<string, mixed>  $query
      */
     public function __construct(
         protected array $query = [],

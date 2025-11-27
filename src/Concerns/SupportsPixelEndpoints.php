@@ -23,7 +23,7 @@ trait SupportsPixelEndpoints
     }
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function updatePixel(string $pixelId, array $payload): Pixel
     {

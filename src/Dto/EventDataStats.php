@@ -11,7 +11,7 @@ class EventDataStats
     ) {}
 
     /**
-     * @param array<int, array<string, mixed>> $payload
+     * @param  array<int, array<string, mixed>>  $payload
      */
     public static function fromResponse(array $payload): self
     {

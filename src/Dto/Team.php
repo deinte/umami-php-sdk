@@ -5,8 +5,8 @@ namespace Deinte\UmamiSdk\Dto;
 class Team
 {
     /**
-     * @param array<int, TeamMember> $members
-     * @param array<string, int> $counts
+     * @param  array<int, TeamMember>  $members
+     * @param  array<string, int>  $counts
      */
     public function __construct(
         public string $id,
@@ -21,7 +21,7 @@ class Team
     ) {}
 
     /**
-     * @param array<string, mixed> $data
+     * @param  array<string, mixed>  $data
      */
     public static function fromResponse(array $data): self
     {

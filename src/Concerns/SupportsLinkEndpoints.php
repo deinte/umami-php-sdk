@@ -23,7 +23,7 @@ trait SupportsLinkEndpoints
     }
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function updateLink(string $linkId, array $payload): Link
     {

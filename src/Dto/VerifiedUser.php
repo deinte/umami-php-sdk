@@ -5,7 +5,7 @@ namespace Deinte\UmamiSdk\Dto;
 class VerifiedUser extends UserSummary
 {
     /**
-     * @param array<int, Team> $teams
+     * @param  array<int, Team>  $teams
      */
     public function __construct(
         string $id,
@@ -19,7 +19,7 @@ class VerifiedUser extends UserSummary
     }
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public static function fromResponse(array $payload): self
     {

@@ -25,7 +25,7 @@ trait SupportsWebsiteEndpoints
     }
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function createWebsite(array $payload): Website
     {
@@ -33,7 +33,7 @@ trait SupportsWebsiteEndpoints
     }
 
     /**
-     * @param array<string, mixed> $payload
+     * @param  array<string, mixed>  $payload
      */
     public function updateWebsite(string $websiteId, array $payload): Website
     {
