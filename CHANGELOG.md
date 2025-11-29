@@ -2,11 +2,11 @@
 
 All notable changes to `deinte/umami-php-sdk` will be documented in this file.
 
-## 1.0.0 - 2025-11-29
+## 0.0.1 - 2025-11-29
 
-**Full Changelog**: https://github.com/deinte/umami-php-sdk/commits/v1.0.0
+**Full Changelog**: https://github.com/deinte/umami-php-sdk/commits/v0.0.1
 
-## [1.0.0] - 2025-01-28
+## [0.0.1] - 2025-11-29
 
 ### Added
 
