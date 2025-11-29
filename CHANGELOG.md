@@ -2,9 +2,14 @@
 
 All notable changes to `deinte/umami-php-sdk` will be documented in this file.
 
+## 1.0.0 - 2025-11-29
+
+**Full Changelog**: https://github.com/deinte/umami-php-sdk/commits/v1.0.0
+
 ## [1.0.0] - 2025-01-28
 
 ### Added
+
 - Initial release of the Umami PHP SDK
 - Typed Saloon connector for the Umami Analytics API
 - Support for both Umami Cloud (API key) and self-hosted (bearer token) authentication
@@ -23,6 +28,7 @@ All notable changes to `deinte/umami-php-sdk` will be documented in this file.
   - Links (share links, referral links)
   - Pixels (tracking pixels configuration)
   - Sending stats (custom event ingestion)
+  
 - Full DTO coverage with type safety for all API responses
 - Pagination support using Saloon's pagination plugin
 - Comprehensive test suite with fixtures and mocked HTTP responses
@@ -31,6 +37,7 @@ All notable changes to `deinte/umami-php-sdk` will be documented in this file.
 - Documentation and usage examples in README
 
 ### Development
+
 - PHP 8.2+ requirement
 - Saloon 3.14+ for HTTP client
 - Pest for testing
