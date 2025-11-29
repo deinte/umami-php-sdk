@@ -1,28 +1,32 @@
-[
-    {
-        "websiteId": "website-1",
-        "sessionId": "session-1",
-        "eventId": "event-1",
-        "urlPath": "/",
-        "eventName": "revenue-demo",
-        "dataKey": "currency",
-        "stringValue": "USD",
-        "numberValue": null,
-        "dateValue": null,
-        "dataType": 1,
-        "createdAt": "2024-01-10T12:31:03Z"
-    },
-    {
-        "websiteId": "website-1",
-        "sessionId": "session-1",
-        "eventId": "event-1",
-        "urlPath": "/",
-        "eventName": "revenue-demo",
-        "dataKey": "revenue",
-        "stringValue": "40.0000",
-        "numberValue": 40,
-        "dateValue": null,
-        "dataType": 2,
-        "createdAt": "2024-01-10T12:31:03Z"
-    }
-]
+{
+    "statusCode": 200,
+    "headers": [],
+    "data": [
+        {
+            "websiteId": "website-1",
+            "sessionId": "session-1",
+            "eventId": "event-1",
+            "urlPath": "/",
+            "eventName": "revenue-demo",
+            "dataKey": "currency",
+            "stringValue": "USD",
+            "numberValue": null,
+            "dateValue": null,
+            "dataType": 1,
+            "createdAt": "2024-01-10T12:31:03Z"
+        },
+        {
+            "websiteId": "website-1",
+            "sessionId": "session-1",
+            "eventId": "event-1",
+            "urlPath": "/",
+            "eventName": "revenue-demo",
+            "dataKey": "revenue",
+            "stringValue": "40.0000",
+            "numberValue": 40,
+            "dateValue": null,
+            "dataType": 2,
+            "createdAt": "2024-01-10T12:31:03Z"
+        }
+    ]
+}

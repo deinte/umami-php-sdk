@@ -1,11 +1,15 @@
-[
-    {
-        "views": 37856,
-        "visitors": 9229,
-        "visits": 13145,
-        "bounces": 8105,
-        "totaltime": 12985151,
-        "os": "Mac OS",
-        "country": "US"
-    }
-]
+{
+    "statusCode": 200,
+    "headers": [],
+    "data": [
+        {
+            "views": 37856,
+            "visitors": 9229,
+            "visits": 13145,
+            "bounces": 8105,
+            "totaltime": 12985151,
+            "os": "Mac OS",
+            "country": "US"
+        }
+    ]
+}

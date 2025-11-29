@@ -1,6 +1,10 @@
 {
-    "id": "user-2",
-    "username": "member",
-    "role": "user",
-    "createdAt": "2024-01-05T00:00:00.000Z"
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "id": "user-2",
+        "username": "member",
+        "role": "user",
+        "createdAt": "2024-01-05T00:00:00.000Z"
+    }
 }

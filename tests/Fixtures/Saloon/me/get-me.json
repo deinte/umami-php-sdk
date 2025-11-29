@@ -1,12 +1,16 @@
 {
-    "token": "sample-token",
-    "authKey": "auth:sample-token",
-    "shareToken": null,
-    "user": {
-        "id": "user-1",
-        "username": "member",
-        "role": "user",
-        "createdAt": "2024-01-01T00:00:00.000Z",
-        "isAdmin": false
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "token": "sample-token",
+        "authKey": "auth:sample-token",
+        "shareToken": null,
+        "user": {
+            "id": "user-1",
+            "username": "member",
+            "role": "user",
+            "createdAt": "2024-01-01T00:00:00.000Z",
+            "isAdmin": false
+        }
     }
 }

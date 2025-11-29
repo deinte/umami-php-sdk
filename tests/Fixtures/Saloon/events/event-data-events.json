@@ -1,8 +1,12 @@
-[
-    {
-        "eventName": "button-click",
-        "propertyName": "id",
-        "dataType": 1,
-        "total": 4
-    }
-]
+{
+    "statusCode": 200,
+    "headers": [],
+    "data": [
+        {
+            "eventName": "button-click",
+            "propertyName": "id",
+            "dataType": 1,
+            "total": 4
+        }
+    ]
+}

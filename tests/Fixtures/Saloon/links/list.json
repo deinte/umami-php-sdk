@@ -1,18 +1,22 @@
 {
-    "data": [
-        {
-            "id": "link-1",
-            "name": "umami",
-            "url": "https://www.umami.is",
-            "slug": "umami",
-            "userId": "user-1",
-            "teamId": null,
-            "createdAt": "2024-10-27T18:49:39.383Z",
-            "updatedAt": "2024-10-27T18:49:39.383Z",
-            "deletedAt": null
-        }
-    ],
-    "count": 1,
-    "page": 1,
-    "pageSize": 20
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "data": [
+            {
+                "id": "link-1",
+                "name": "umami",
+                "url": "https://www.umami.is",
+                "slug": "umami",
+                "userId": "user-1",
+                "teamId": null,
+                "createdAt": "2024-10-27T18:49:39.383Z",
+                "updatedAt": "2024-10-27T18:49:39.383Z",
+                "deletedAt": null
+            }
+        ],
+        "count": 1,
+        "page": 1,
+        "pageSize": 20
+    }
 }

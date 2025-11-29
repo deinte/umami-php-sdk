@@ -1,28 +1,32 @@
 {
-    "data": [
-        {
-            "id": "event-1",
-            "websiteId": "website-1",
-            "sessionId": "session-1",
-            "createdAt": "2024-01-15T16:26:28Z",
-            "hostname": "umami.is",
-            "urlPath": "/docs/api",
-            "urlQuery": "",
-            "referrerPath": "",
-            "referrerQuery": "",
-            "referrerDomain": "",
-            "country": "US",
-            "city": "Scott",
-            "device": "desktop",
-            "os": "Mac OS",
-            "browser": "chrome",
-            "pageTitle": "API – Docs - Umami",
-            "eventType": 1,
-            "eventName": "",
-            "hasData": 0
-        }
-    ],
-    "count": 1,
-    "page": 1,
-    "pageSize": 20
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "data": [
+            {
+                "id": "event-1",
+                "websiteId": "website-1",
+                "sessionId": "session-1",
+                "createdAt": "2024-01-15T16:26:28Z",
+                "hostname": "umami.is",
+                "urlPath": "/docs/api",
+                "urlQuery": "",
+                "referrerPath": "",
+                "referrerQuery": "",
+                "referrerDomain": "",
+                "country": "US",
+                "city": "Scott",
+                "device": "desktop",
+                "os": "Mac OS",
+                "browser": "chrome",
+                "pageTitle": "API \u2013 Docs - Umami",
+                "eventType": 1,
+                "eventName": "",
+                "hasData": 0
+            }
+        ],
+        "count": 1,
+        "page": 1,
+        "pageSize": 20
+    }
 }

@@ -1,7 +1,11 @@
-[
-    {
-        "type": "event",
-        "value": "live-demo-button",
-        "total": 1200
-    }
-]
+{
+    "statusCode": 200,
+    "headers": [],
+    "data": [
+        {
+            "type": "event",
+            "value": "live-demo-button",
+            "total": 1200
+        }
+    ]
+}

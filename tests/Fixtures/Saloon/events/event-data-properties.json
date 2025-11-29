@@ -1,8 +1,12 @@
-[
-    {
-        "eventName": "revenue-demo",
-        "propertyName": "revenue",
-        "total": 122,
-        "dataType": 2
-    }
-]
+{
+    "statusCode": 200,
+    "headers": [],
+    "data": [
+        {
+            "eventName": "revenue-demo",
+            "propertyName": "revenue",
+            "total": 122,
+            "dataType": 2
+        }
+    ]
+}

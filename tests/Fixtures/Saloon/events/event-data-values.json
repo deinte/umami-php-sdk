@@ -1,6 +1,10 @@
-[
-    {
-        "value": "Male",
-        "total": 28
-    }
-]
+{
+    "statusCode": 200,
+    "headers": [],
+    "data": [
+        {
+            "value": "Male",
+            "total": 28
+        }
+    ]
+}

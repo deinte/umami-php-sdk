@@ -16,7 +16,7 @@ class GetReportsRequest extends Request
      * @param  array<string, mixed>  $query
      */
     public function __construct(
-        protected array $query,
+        protected array $queryParams,
     ) {}
 
     public function resolveEndpoint(): string
@@ -26,7 +26,7 @@ class GetReportsRequest extends Request
 
     protected function defaultQuery(): array
     {
-        return $this->query;
+        return $this->queryParams;
     }
 
     public function createDtoFromResponse(Response $response): PaginatedResult

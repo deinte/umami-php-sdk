@@ -6,12 +6,9 @@ use Deinte\UmamiSdk\Dto\SendResult;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
 use Saloon\Http\Response;
-use Saloon\Traits\Plugins\AlwaysThrowOnErrors;
 
 class SendStatsRequest extends Request
 {
-    use AlwaysThrowOnErrors;
-
     protected Method $method = Method::POST;
 
     /**

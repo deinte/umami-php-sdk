@@ -13,11 +13,11 @@ class GetTeamUsersRequest extends Request
     protected Method $method = Method::GET;
 
     /**
-     * @param  array<string, mixed>  $query
+     * @param  array<string, mixed>  $queryParams
      */
     public function __construct(
         protected string $teamId,
-        protected array $query = [],
+        protected array $queryParams = [],
     ) {}
 
     public function resolveEndpoint(): string
@@ -27,7 +27,7 @@ class GetTeamUsersRequest extends Request
 
     protected function defaultQuery(): array
     {
-        return $this->query;
+        return $this->queryParams;
     }
 
     public function createDtoFromResponse(Response $response): PaginatedResult

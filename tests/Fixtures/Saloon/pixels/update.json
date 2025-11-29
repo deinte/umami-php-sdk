@@ -1,10 +1,14 @@
 {
-    "id": "pixel-1",
-    "name": "Updated Pixel",
-    "slug": "pixel5678",
-    "userId": "user-1",
-    "teamId": null,
-    "createdAt": "2024-10-27T18:50:54.079Z",
-    "updatedAt": "2024-10-30T23:11:18.627Z",
-    "deletedAt": null
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "id": "pixel-1",
+        "name": "Updated Pixel",
+        "slug": "pixel5678",
+        "userId": "user-1",
+        "teamId": null,
+        "createdAt": "2024-10-27T18:50:54.079Z",
+        "updatedAt": "2024-10-30T23:11:18.627Z",
+        "deletedAt": null
+    }
 }

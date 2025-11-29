@@ -1,13 +1,17 @@
-[
-    {
-        "createdAt": "2024-01-21T15:00:09Z",
-        "urlPath": "/blog",
-        "urlQuery": "",
-        "referrerDomain": "umami.is",
-        "eventId": "event-1",
-        "eventType": 1,
-        "eventName": "",
-        "visitId": "visit-1",
-        "hasData": 0
-    }
-]
+{
+    "statusCode": 200,
+    "headers": [],
+    "data": [
+        {
+            "createdAt": "2024-01-21T15:00:09Z",
+            "urlPath": "/blog",
+            "urlQuery": "",
+            "referrerDomain": "umami.is",
+            "eventId": "event-1",
+            "eventType": 1,
+            "eventName": "",
+            "visitId": "visit-1",
+            "hasData": 0
+        }
+    ]
+}

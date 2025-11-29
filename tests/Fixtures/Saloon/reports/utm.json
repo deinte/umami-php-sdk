@@ -1,11 +1,24 @@
 {
-    "utm_source": [
-        { "utm": "chatgpt.com", "views": 341 }
-    ],
-    "utm_medium": [
-        { "utm": "email", "views": 90 }
-    ],
-    "utm_campaign": [
-        { "utm": "launch", "views": 45 }
-    ]
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "utm_source": [
+            {
+                "utm": "chatgpt.com",
+                "views": 341
+            }
+        ],
+        "utm_medium": [
+            {
+                "utm": "email",
+                "views": 90
+            }
+        ],
+        "utm_campaign": [
+            {
+                "utm": "launch",
+                "views": 45
+            }
+        ]
+    }
 }

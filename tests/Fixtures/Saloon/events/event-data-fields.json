@@ -1,8 +1,12 @@
-[
-    {
-        "propertyName": "age",
-        "dataType": 2,
-        "value": "33",
-        "total": 1
-    }
-]
+{
+    "statusCode": 200,
+    "headers": [],
+    "data": [
+        {
+            "propertyName": "age",
+            "dataType": 2,
+            "value": "33",
+            "total": 1
+        }
+    ]
+}

@@ -1,8 +1,12 @@
 {
-    "id": "member-2",
-    "teamId": "team-2",
-    "userId": "user-4",
-    "role": "team-member",
-    "createdAt": "2024-01-05T00:00:00.000Z",
-    "updatedAt": "2024-01-05T00:00:00.000Z"
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "id": "member-2",
+        "teamId": "team-2",
+        "userId": "user-4",
+        "role": "team-member",
+        "createdAt": "2024-01-05T00:00:00.000Z",
+        "updatedAt": "2024-01-05T00:00:00.000Z"
+    }
 }

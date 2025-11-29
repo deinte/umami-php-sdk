@@ -1,13 +1,17 @@
 {
-    "id": "website-2",
-    "name": "Updated Site",
-    "domain": "docs.example.com",
-    "shareId": null,
-    "resetAt": null,
-    "userId": "user-1",
-    "teamId": null,
-    "createdBy": "user-1",
-    "createdAt": "2024-01-02T00:00:00.000Z",
-    "updatedAt": "2024-01-03T00:00:00.000Z",
-    "deletedAt": null
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "id": "website-2",
+        "name": "Updated Site",
+        "domain": "docs.example.com",
+        "shareId": null,
+        "resetAt": null,
+        "userId": "user-1",
+        "teamId": null,
+        "createdBy": "user-1",
+        "createdAt": "2024-01-02T00:00:00.000Z",
+        "updatedAt": "2024-01-03T00:00:00.000Z",
+        "deletedAt": null
+    }
 }

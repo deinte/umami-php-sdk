@@ -36,16 +36,14 @@ it('manages saved reports', function () {
 
 it('runs analytical reports', function () {
     MockClient::global([
-        ExecuteReportRequest::class => MockResponse::sequence(
-            MockResponse::fixture('reports/attribution'),
-            MockResponse::fixture('reports/breakdown'),
-            MockResponse::fixture('reports/funnel'),
-            MockResponse::fixture('reports/goals'),
-            MockResponse::fixture('reports/journey'),
-            MockResponse::fixture('reports/retention'),
-            MockResponse::fixture('reports/revenue'),
-            MockResponse::fixture('reports/utm'),
-        ),
+        MockResponse::fixture('reports/attribution'),
+        MockResponse::fixture('reports/breakdown'),
+        MockResponse::fixture('reports/funnel'),
+        MockResponse::fixture('reports/goals'),
+        MockResponse::fixture('reports/journey'),
+        MockResponse::fixture('reports/retention'),
+        MockResponse::fixture('reports/revenue'),
+        MockResponse::fixture('reports/utm'),
     ]);
 
     $payload = ['websiteId' => 'website-1', 'type' => 'goal', 'parameters' => []];

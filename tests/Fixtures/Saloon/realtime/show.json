@@ -1,34 +1,50 @@
 {
-    "countries": { "US": 9 },
-    "urls": { "/": 43 },
-    "referrers": { "umami.is": 31 },
-    "events": [
-        {
-            "__type": "pageview",
-            "sessionId": "session-1",
-            "eventName": "",
-            "createdAt": "2024-10-22T00:15:29Z",
-            "browser": "chrome",
-            "os": "Mac OS",
-            "device": "desktop",
-            "country": "US",
-            "urlPath": "/docs/attribution",
-            "referrerDomain": "umami.is"
-        }
-    ],
-    "series": {
-        "views": [
-            { "x": "2024-10-21T23:45:00Z", "y": 5 }
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "countries": {
+            "US": 9
+        },
+        "urls": {
+            "/": 43
+        },
+        "referrers": {
+            "umami.is": 31
+        },
+        "events": [
+            {
+                "__type": "pageview",
+                "sessionId": "session-1",
+                "eventName": "",
+                "createdAt": "2024-10-22T00:15:29Z",
+                "browser": "chrome",
+                "os": "Mac OS",
+                "device": "desktop",
+                "country": "US",
+                "urlPath": "/docs/attribution",
+                "referrerDomain": "umami.is"
+            }
         ],
-        "visitors": [
-            { "x": "2024-10-21T23:45:00Z", "y": 3 }
-        ]
-    },
-    "totals": {
-        "views": 69,
-        "visitors": 42,
-        "events": 12,
-        "countries": 15
-    },
-    "timestamp": 1761092151944
+        "series": {
+            "views": [
+                {
+                    "x": "2024-10-21T23:45:00Z",
+                    "y": 5
+                }
+            ],
+            "visitors": [
+                {
+                    "x": "2024-10-21T23:45:00Z",
+                    "y": 3
+                }
+            ]
+        },
+        "totals": {
+            "views": 69,
+            "visitors": 42,
+            "events": 12,
+            "countries": 15
+        },
+        "timestamp": 1761092151944
+    }
 }

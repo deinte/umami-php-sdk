@@ -18,7 +18,7 @@ class GetEventsRequest extends Request implements Paginatable
      */
     public function __construct(
         protected string $websiteId,
-        protected array $query,
+        protected array $queryParams,
     ) {}
 
     public function resolveEndpoint(): string
@@ -28,7 +28,7 @@ class GetEventsRequest extends Request implements Paginatable
 
     protected function defaultQuery(): array
     {
-        return $this->query;
+        return $this->queryParams;
     }
 
     public function createDtoFromResponse(Response $response): PaginatedResult

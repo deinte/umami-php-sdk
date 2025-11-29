@@ -1,25 +1,29 @@
 {
-    "data": [
-        {
-            "id": "session-1",
-            "websiteId": "website-1",
-            "hostname": "umami.is",
-            "browser": "chrome",
-            "os": "Mac OS",
-            "device": "desktop",
-            "screen": "1800x1169",
-            "language": "en-US",
-            "country": "SE",
-            "region": "SE-AB",
-            "city": "Stockholm",
-            "firstAt": "2024-01-21T13:35:51Z",
-            "lastAt": "2024-01-21T15:00:09Z",
-            "visits": 2,
-            "views": 18,
-            "createdAt": "2024-01-21T15:00:09Z"
-        }
-    ],
-    "count": 1,
-    "page": 1,
-    "pageSize": 20
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "data": [
+            {
+                "id": "session-1",
+                "websiteId": "website-1",
+                "hostname": "umami.is",
+                "browser": "chrome",
+                "os": "Mac OS",
+                "device": "desktop",
+                "screen": "1800x1169",
+                "language": "en-US",
+                "country": "SE",
+                "region": "SE-AB",
+                "city": "Stockholm",
+                "firstAt": "2024-01-21T13:35:51Z",
+                "lastAt": "2024-01-21T15:00:09Z",
+                "visits": 2,
+                "views": 18,
+                "createdAt": "2024-01-21T15:00:09Z"
+            }
+        ],
+        "count": 1,
+        "page": 1,
+        "pageSize": 20
+    }
 }

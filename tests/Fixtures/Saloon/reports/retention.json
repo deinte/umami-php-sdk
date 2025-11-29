@@ -1,8 +1,12 @@
-[
-    {
-        "period": "2024-10-01",
-        "cohort": 100,
-        "retained": 30,
-        "percentage": 30
-    }
-]
+{
+    "statusCode": 200,
+    "headers": [],
+    "data": [
+        {
+            "period": "2024-10-01",
+            "cohort": 100,
+            "retained": 30,
+            "percentage": 30
+        }
+    ]
+}

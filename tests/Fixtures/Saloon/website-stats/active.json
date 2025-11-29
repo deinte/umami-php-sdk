@@ -1,3 +1,7 @@
 {
-    "visitors": 5
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "visitors": 5
+    }
 }

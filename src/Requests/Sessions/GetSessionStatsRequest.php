@@ -16,7 +16,7 @@ class GetSessionStatsRequest extends Request
      */
     public function __construct(
         protected string $websiteId,
-        protected array $query,
+        protected array $queryParams,
     ) {}
 
     public function resolveEndpoint(): string
@@ -26,7 +26,7 @@ class GetSessionStatsRequest extends Request
 
     protected function defaultQuery(): array
     {
-        return $this->query;
+        return $this->queryParams;
     }
 
     public function createDtoFromResponse(Response $response): SessionStats

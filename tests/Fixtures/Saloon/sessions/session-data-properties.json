@@ -1,6 +1,10 @@
-[
-    {
-        "propertyName": "email",
-        "total": 1039
-    }
-]
+{
+    "statusCode": 200,
+    "headers": [],
+    "data": [
+        {
+            "propertyName": "email",
+            "total": 1039
+        }
+    ]
+}

@@ -1,14 +1,25 @@
 {
-    "chart": [
-        { "x": "revenue-demo", "t": "2024-10-14T07:00:00Z", "y": 400 }
-    ],
-    "country": [
-        { "name": "US", "value": 1050 }
-    ],
-    "total": {
-        "sum": 3870,
-        "count": 131,
-        "unique_count": 131,
-        "average": 29.54
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "chart": [
+            {
+                "x": "revenue-demo",
+                "t": "2024-10-14T07:00:00Z",
+                "y": 400
+            }
+        ],
+        "country": [
+            {
+                "name": "US",
+                "value": 1050
+            }
+        ],
+        "total": {
+            "sum": 3870,
+            "count": 131,
+            "unique_count": 131,
+            "average": 29.54
+        }
     }
 }

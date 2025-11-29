@@ -1,28 +1,53 @@
 {
-    "referrer": [
-        { "name": "google.com", "value": 30082 }
-    ],
-    "paidAds": [
-        { "name": "Facebook / Meta", "value": 106 }
-    ],
-    "utm_source": [
-        { "name": "coolify.io", "value": 465 }
-    ],
-    "utm_medium": [
-        { "name": "referral", "value": 75 }
-    ],
-    "utm_campaign": [
-        { "name": "navigation", "value": 60 }
-    ],
-    "utm_content": [
-        { "name": "comparison-page", "value": 1 }
-    ],
-    "utm_term": [
-        { "name": "data analysis", "value": 1 }
-    ],
-    "total": {
-        "pageviews": 171481,
-        "visitors": 104727,
-        "visits": 138391
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "referrer": [
+            {
+                "name": "google.com",
+                "value": 30082
+            }
+        ],
+        "paidAds": [
+            {
+                "name": "Facebook / Meta",
+                "value": 106
+            }
+        ],
+        "utm_source": [
+            {
+                "name": "coolify.io",
+                "value": 465
+            }
+        ],
+        "utm_medium": [
+            {
+                "name": "referral",
+                "value": 75
+            }
+        ],
+        "utm_campaign": [
+            {
+                "name": "navigation",
+                "value": 60
+            }
+        ],
+        "utm_content": [
+            {
+                "name": "comparison-page",
+                "value": 1
+            }
+        ],
+        "utm_term": [
+            {
+                "name": "data analysis",
+                "value": 1
+            }
+        ],
+        "total": {
+            "pageviews": 171481,
+            "visitors": 104727,
+            "visits": 138391
+        }
     }
 }

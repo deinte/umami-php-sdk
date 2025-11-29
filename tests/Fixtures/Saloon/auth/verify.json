@@ -1,22 +1,26 @@
 {
-    "id": "user-1",
-    "username": "admin",
-    "role": "admin",
-    "createdAt": "2024-01-01T00:00:00.000Z",
-    "isAdmin": true,
-    "teams": [
-        {
-            "id": "team-1",
-            "name": "Ops",
-            "accessCode": "abc",
-            "logoUrl": null,
-            "createdAt": "2024-01-01T00:00:00.000Z",
-            "updatedAt": "2024-01-01T00:00:00.000Z",
-            "deletedAt": null,
-            "_count": {
-                "websites": 0,
-                "members": 1
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "id": "user-1",
+        "username": "admin",
+        "role": "admin",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "isAdmin": true,
+        "teams": [
+            {
+                "id": "team-1",
+                "name": "Ops",
+                "accessCode": "abc",
+                "logoUrl": null,
+                "createdAt": "2024-01-01T00:00:00.000Z",
+                "updatedAt": "2024-01-01T00:00:00.000Z",
+                "deletedAt": null,
+                "_count": {
+                    "websites": 0,
+                    "members": 1
+                }
             }
-        }
-    ]
+        ]
+    }
 }

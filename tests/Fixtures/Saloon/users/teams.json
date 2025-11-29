@@ -1,21 +1,25 @@
 {
-    "data": [
-        {
-            "id": "team-1",
-            "name": "Marketing",
-            "accessCode": "abc123",
-            "logoUrl": null,
-            "createdAt": "2024-01-01T00:00:00.000Z",
-            "updatedAt": "2024-01-01T00:00:00.000Z",
-            "deletedAt": null,
-            "_count": {
-                "websites": 1,
-                "members": 1
-            },
-            "members": []
-        }
-    ],
-    "count": 1,
-    "page": 1,
-    "pageSize": 20
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "data": [
+            {
+                "id": "team-1",
+                "name": "Marketing",
+                "accessCode": "abc123",
+                "logoUrl": null,
+                "createdAt": "2024-01-01T00:00:00.000Z",
+                "updatedAt": "2024-01-01T00:00:00.000Z",
+                "deletedAt": null,
+                "_count": {
+                    "websites": 1,
+                    "members": 1
+                },
+                "members": []
+            }
+        ],
+        "count": 1,
+        "page": 1,
+        "pageSize": 20
+    }
 }

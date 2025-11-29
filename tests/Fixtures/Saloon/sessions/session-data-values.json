@@ -1,6 +1,10 @@
-[
-    {
-        "value": "US",
-        "total": 462
-    }
-]
+{
+    "statusCode": 200,
+    "headers": [],
+    "data": [
+        {
+            "value": "US",
+            "total": 462
+        }
+    ]
+}

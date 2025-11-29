@@ -1,5 +1,9 @@
 {
-    "cache": "abc",
-    "sessionId": "session-1",
-    "visitId": "visit-1"
+    "statusCode": 200,
+    "headers": [],
+    "data": {
+        "cache": "abc",
+        "sessionId": "session-1",
+        "visitId": "visit-1"
+    }
 }
