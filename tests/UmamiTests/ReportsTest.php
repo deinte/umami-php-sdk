@@ -2,7 +2,6 @@
 
 use Deinte\UmamiSdk\Requests\Reports\CreateReportRequest;
 use Deinte\UmamiSdk\Requests\Reports\DeleteReportRequest;
-use Deinte\UmamiSdk\Requests\Reports\ExecuteReportRequest;
 use Deinte\UmamiSdk\Requests\Reports\GetReportRequest;
 use Deinte\UmamiSdk\Requests\Reports\GetReportsRequest;
 use Deinte\UmamiSdk\Requests\Reports\UpdateReportRequest;
