@@ -3,12 +3,16 @@
 namespace Deinte\UmamiSdk\Requests\SendingStats;
 
 use Deinte\UmamiSdk\Dto\SendResult;
+use Saloon\Contracts\Body\HasBody;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
 use Saloon\Http\Response;
+use Saloon\Traits\Body\HasJsonBody;
 
-class SendStatsRequest extends Request
+class SendStatsRequest extends Request implements HasBody
 {
+    use HasJsonBody;
+
     protected Method $method = Method::POST;
 
     /**

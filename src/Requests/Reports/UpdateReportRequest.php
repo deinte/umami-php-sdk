@@ -3,12 +3,16 @@
 namespace Deinte\UmamiSdk\Requests\Reports;
 
 use Deinte\UmamiSdk\Dto\Report;
+use Saloon\Contracts\Body\HasBody;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
 use Saloon\Http\Response;
+use Saloon\Traits\Body\HasJsonBody;
 
-class UpdateReportRequest extends Request
+class UpdateReportRequest extends Request implements HasBody
 {
+    use HasJsonBody;
+
     protected Method $method = Method::POST;
 
     /**

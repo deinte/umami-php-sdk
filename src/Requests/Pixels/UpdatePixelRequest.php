@@ -3,12 +3,16 @@
 namespace Deinte\UmamiSdk\Requests\Pixels;
 
 use Deinte\UmamiSdk\Dto\Pixel;
+use Saloon\Contracts\Body\HasBody;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
 use Saloon\Http\Response;
+use Saloon\Traits\Body\HasJsonBody;
 
-class UpdatePixelRequest extends Request
+class UpdatePixelRequest extends Request implements HasBody
 {
+    use HasJsonBody;
+
     protected Method $method = Method::POST;
 
     /**

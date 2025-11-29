@@ -3,12 +3,16 @@
 namespace Deinte\UmamiSdk\Requests\Teams;
 
 use Deinte\UmamiSdk\Dto\TeamMember;
+use Saloon\Contracts\Body\HasBody;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
 use Saloon\Http\Response;
+use Saloon\Traits\Body\HasJsonBody;
 
-class JoinTeamRequest extends Request
+class JoinTeamRequest extends Request implements HasBody
 {
+    use HasJsonBody;
+
     protected Method $method = Method::POST;
 
     /**

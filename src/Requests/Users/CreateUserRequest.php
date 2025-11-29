@@ -3,12 +3,16 @@
 namespace Deinte\UmamiSdk\Requests\Users;
 
 use Deinte\UmamiSdk\Dto\User;
+use Saloon\Contracts\Body\HasBody;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
 use Saloon\Http\Response;
+use Saloon\Traits\Body\HasJsonBody;
 
-class CreateUserRequest extends Request
+class CreateUserRequest extends Request implements HasBody
 {
+    use HasJsonBody;
+
     protected Method $method = Method::POST;
 
     /**

@@ -3,12 +3,16 @@
 namespace Deinte\UmamiSdk\Requests\Links;
 
 use Deinte\UmamiSdk\Dto\Link;
+use Saloon\Contracts\Body\HasBody;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
 use Saloon\Http\Response;
+use Saloon\Traits\Body\HasJsonBody;
 
-class UpdateLinkRequest extends Request
+class UpdateLinkRequest extends Request implements HasBody
 {
+    use HasJsonBody;
+
     protected Method $method = Method::POST;
 
     /**

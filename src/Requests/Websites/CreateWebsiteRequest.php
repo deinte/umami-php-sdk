@@ -3,12 +3,16 @@
 namespace Deinte\UmamiSdk\Requests\Websites;
 
 use Deinte\UmamiSdk\Dto\Website;
+use Saloon\Contracts\Body\HasBody;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
 use Saloon\Http\Response;
+use Saloon\Traits\Body\HasJsonBody;
 
-class CreateWebsiteRequest extends Request
+class CreateWebsiteRequest extends Request implements HasBody
 {
+    use HasJsonBody;
+
     protected Method $method = Method::POST;
 
     /**
